@@ -6,7 +6,32 @@
 
 
         {% block body %}
-            <div class="content">
+
+        <div class="container">
+            <div class="header">
+                <img src="{{ url_for('static', filename='images/logosmall.jpeg')}}"> 
+                <aside>
+                    <div class="navbar">
+                        <a href="index.html"><i class="fas fa-home"></i></a>
+                        <a href="welcome.html">Welcome</a>
+                        <a href="contact.html">Contact Us</a>
+                        <a href="gallery.html">Gallery</a>
+                                
+                        <div class="dropdown">
+                            <button class="dropbtn">Missions Program
+                                <i class="fas fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="faithmissions.html">Faith Missions</a>
+                                <a href="missionaries.html">Missionaries</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h2>"The Church Where Folks Take Time To Be Friendly"</h2>
+                </aside>
+            </div>
+        </div>
+        <div class="content">
                 <h1>Prayers</h1>
 
             <div class="prayers">
@@ -36,5 +61,47 @@
                 <input type="submit" value="add Prayer">
             </form>
         </div> 
+            <div class="title">
+                <h3><strong>Luke 2:10</strong></h3>
+            </div>
+
+
+                <div class="text">
+                    <h4>Therefore said He unto them,
+                        The harvest truly is great,<br> but the labourers
+                        are few: <br>pray ye therefore the Lord of the
+                        harvest,<br> that He would send forth labourers
+                        into His harvest.
+                    </h4>
+                </div>
+        <div class="section">
+            <div class="section-nav">
+                <h1><strong>Romans Road<br>Plan of Salvation</strong></h1>
+                <br>
+            </div>
+            <div class="verse-nav">
+                
+                    <h1 style="margin: 1%"> Romans 5:8 "..But God demonstrates His own love toward us, in that yet while we were still sinners, Christ died for us."
+                    </h1>
+                    <h1 style="margin-left: 2%"> Romans 8:23 "..For all have sinned and come short of the glory of God."&nbsp;
+                    </h1>
+                    <h1 style="left: 2%"> Romans 6:23 "..For the wages of sin is death, but the gift of God is eternal life through Jesus Christ our Lord."&nbsp;
+                    </h1>
+                    <h1 style="right: 2%">&nbsp;Romans 10:9 "..because if you confess with your mouth that Jesus is Lord and believe in your heart tht God raised you from the dead, you will be saved."&nbsp;
+                    </h1>
+                    <h1 style="margin-right: 2%"> Romans 5:1 "..Therefore since we have been justified through faith we have peace with God through out Lord and Savior Jesus Christ."&nbsp;
+                    </h1>
+                
+            </div>
+        </div>
+
+ 
+    
+         
+
+
+
+
+
         {% endblock %}
 

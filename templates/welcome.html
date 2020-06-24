@@ -1,0 +1,124 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+{% endblock %}
+
+
+{% block body %}
+
+        
+<div class="container">
+    <div class="header">
+        <img src="images/logosmall.png">
+            <aside>
+                <div class="navbar">
+                    <a href="index.html"><i class="fas fa-home"></i></a>
+                    <a href="welcome.html">Welcome</a>
+                    <a href="contact.html">Contact Us</a>
+                    <a href="gallery.html">Gallery</a>
+                            
+                    <div class="dropdown">
+                        <button class="dropbtn">Missions Program
+                            <i class="fas fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="faithmissions.html">Faith Missions</a>
+                            <a href="missionaries.html">Missionaries</a>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+</div>
+<div class="section-note">
+    <h1>
+        "A  note from Pastor Rob Seale"
+    </h1>
+        <p>
+            Calvary Baptist Church is a Bible-Believing Church<br>
+            who's Doctorine is based on the Biblical standards<br>
+            set by our King of Kings and Lord of Lords.  
+            <br>Our mission is to be used of God to reach the world.<br>
+            Our services are
+            traditional and capture the Love of Christ.<br>Come
+            worship with us as we together can<br>fulfill the 
+            Great Commission of God!
+        </p>
+</div>
+
+<div class="contentprayer">
+    <h1>Prayers</h1>
+    <div class="Prayers">
+        <div class="Prayer">
+            <div class="prayer-content">
+                <h2>Prayer</h2>
+                <p>Prayer 1</p>
+            </div>
+            <div>
+                <h4>Actions</h4>
+                <a href="/delete1">Delete</a>
+                <a href="/update/1">Edit</a>
+            </div>
+        </div>
+        <div class"prayer">
+            <h2>Prayer</h2>
+            <p></p>
+        </div>
+        <div>
+            <h4>Actions</h4>
+            <a href="/delete/2">Delete</a>
+            <a href="/update/2">Edit</a>
+        </div>
+    </div>
+    <div>
+        <form action="/" method="Post">
+        <input type="text" name="content" id="content">
+        <input type="submit" value="add Prayer">
+        </form>
+    </div>
+</div>
+<div class="timeline">
+    <h1>CBC Timeline</h1>
+    <div class="container left">
+        <div class="content">
+            <h2>1952-1961</h2>
+            <p>The Calvary Baptist Church was founded in February with 12 charter members. The church met in a building downtown in its early beginnings.
+                In 1953 the land was donated to the CBC at its current location on Hwy 287 East and the first service held was January 18, 1953. Rev. Ernest Phillips led the church until 1961.
+        </div>
+    </div>
+    <div class="container right">
+        <div class="content">
+            <h2>1961-1971</h2>
+            <p>After Rev. Phillips left the church, Bro. Bill Hill filled the pulpit from 1961-1964. Rev. Joe Moore followed Hill from 1964-1967 and Rev. Maurice Hutchinson led from 1968-70. John Pettit filled the pulpit from June to December of 1970</p>
+        </div>
+    </div>
+    <div class="container left">
+        <div class="content">
+            <h2>1971-1991</h2>
+            <p>Bro. Roy Sullivan was called to lead the church in 1971 until his death in 1983.
+                During that time Rev. James Jones served as Associate.
+                Bro. Gary Pinion was called to lead Calvary Baptist Church in 1983 until 1987. 
+                While there he began Calvary Baptist Academy, which closed in 1987. 
+                Tony Colburn was the Assocaite from 1985-1987 and called to lead the church from 1987 to 1991.
+                </p>
+        </div>
+    </div>
+    <div class="container right">
+        <div class="content">
+            <h2>1988-present</h2>
+            <p>In 1988, Bro Rob Seale was named as Associate Pastor under Colburn. <br> After a year in Merkel, TX,
+                Seale answered the call to pastor the Calvary Baptist Church <br> in 1992 and is in that position at present time.</p>
+        </div>
+    </div>
+</div>
+ 
+    
+         
+
+
+
+
+
+{% endblock %}
